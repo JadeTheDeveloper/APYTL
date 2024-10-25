@@ -10,11 +10,13 @@ from colorama import Fore
 def test_function_value(function_to_compare, expected_value, exit_after_result):
     if(function_to_compare != expected_value):
         print(Fore.RED + 'The function did not return its expected value')
-        print(Fore.RED + 'Expected: ' + expected_value)
-        print(Fore.RED + 'Function Returned: ' + function_to_compare)
+        print(Fore.RED + 'Expected: ' + str(expected_value))
+        print(Fore.RED + 'Function Returned: ' + str(function_to_compare))
+        print(Fore.RESET)
         if(exit_after_result == True):
             exit(1)
     if(function_to_compare == expected_value):
         print(Fore.CYAN + 'The function returned its expected value!')
+        print(Fore.RESET)
         if(exit_after_result == True):
             exit(0)
