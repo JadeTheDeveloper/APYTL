@@ -12,5 +12,4 @@ If literally anyone has a better name, please tell me.
 
 
 # Documentation
-You can find the documentation for the library can be found here: 
-(TODO: Add Documentation Link)
+We just created documentation! [Click here to view the official APYTL docs](https://github.com/JadeTheDeveloper/APYTL/wiki)
