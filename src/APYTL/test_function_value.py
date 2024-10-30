@@ -8,6 +8,7 @@ from colorama import Fore
     exit_after_result: ether true or false, determines wheather you want to exit after the test completes
 """
 def test_function_value(function_to_compare, expected_value, exit_after_result):
+    print('Testing function' + test_function_value.__name__ + '...')
     if(function_to_compare != expected_value):
         print(Fore.RED + 'The function did not return its expected value')
         print(Fore.RED + 'Expected: ' + str(expected_value))
